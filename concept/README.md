@@ -1,6 +1,6 @@
 # Concept
 
-The game concept: what the game is, before how it's built. This folder is the single source of every world and game fact, and the [handbook site](https://hackdonalds.github.io/game0/) is built from it, so editing a file here updates the site. Write each fact once: rules and systems in the docs, each single thing (a people, a creature, a skill) in its entry, and link instead of repeating.
+The game concept: what the game is, before how it's built. This folder is the single source of every world and game fact, and the [handbook site](https://hackdonalds.github.io/mmo/) is built from it, so editing a file here updates the site. Write each fact once: rules and systems in the docs, each single thing (a people, a creature, a skill) in its entry, and link instead of repeating.
 
 - **Docs** (the list below) render as the handbook's chapters. A chapter's title, kicker, summary, cover brief, catalogues and extra docs are in the `chapter:` frontmatter of its first doc.
 - **Entries** in [`entries/<kind>/<id>.md`](entries/) are the catalogues: [peoples](entries/peoples/), [bestiary](entries/bestiary/), [skills](entries/skills/), [materials](entries/materials/), [ships](entries/ships/), [isles](entries/isles/), [winds](entries/winds/) and [architecture](entries/architecture/). The YAML frontmatter holds the structured stats and an `art:` brief for the entry's painted plate; the body holds the prose. Isle and wind files are named by their id in [`worlds/first-shard.world.json`](../worlds/first-shard.world.json), which holds their names and geometry.

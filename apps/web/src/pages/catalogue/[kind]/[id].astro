@@ -329,7 +329,7 @@ const status = ["bestiary", "peoples", "ships", "architecture", "materials", "sk
             <h3>Painted leaf cards</h3>
             <ul class="leaves">{biomeLeaves.map((f) => { const src = plate(f.art); return src && <li><Image src={src} alt={`Leaf card: ${f.name}`} widths={[160, 320]} sizes="80px" /><span>{f.name}</span></li>; })}</ul>
           </>)}
-          <p class="note">Every piece is listed in <a href={`https://github.com/hackdonalds/game0/blob/main/art/models/nature/${biome.id}/kit.json`}>its kit manifest</a>; see the <a href={`${base}/catalogue/biomes/#leaf-cards`}>leaf cards</a> shared across biomes.</p>
+          <p class="note">Every piece is listed in <a href={`https://github.com/hackdonalds/mmo/blob/main/art/models/nature/${biome.id}/kit.json`}>its kit manifest</a>; see the <a href={`${base}/catalogue/biomes/#leaf-cards`}>leaf cards</a> shared across biomes.</p>
         </article>
       )}
 

@@ -3,10 +3,10 @@ import { dirname, join, relative, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { docToChapter } from "./src/data/chapters.mjs";
 
-const BASE = "/game0";
+const BASE = "/mmo";
 const REPO = resolve(dirname(fileURLToPath(import.meta.url)), "../..");
 const CONCEPT = join(REPO, "concept");
-const GITHUB = "https://github.com/hackdonalds/game0/blob/main/";
+const GITHUB = "https://github.com/hackdonalds/mmo/blob/main/";
 
 /** Concept docs link to each other and to repo files. Point those links at handbook pages or GitHub, and wrap tables so they scroll on phones. */
 function handbookLinks() {

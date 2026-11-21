@@ -1,5 +1,5 @@
 // Fail when the handbook site has fallen behind the concept docs, the world file, the art or the demos.
-// Usage: bun scripts/handbook-check.ts [--site dist/site/game0]
+// Usage: bun scripts/handbook-check.ts [--site dist/site/mmo]
 //   Without --site it checks the sources the site is built from; `bun run build` runs it before building.
 //   With --site it also checks the built pages; `bun run build` runs that after building, before anything deploys.
 // Everything is discovered by scanning folders, so a new style, biome, doc, entry, demo or sheet is caught without editing this file.
@@ -14,7 +14,7 @@ import { plateJobs, readManifest, staleness, ROOT } from "./handbook-sheets";
 import { artStatus, STAGES, type EntryRef } from "../apps/web/src/lib/art-status";
 
 const siteArg = process.argv.indexOf("--site");
-const SITE = siteArg > 0 ? join(ROOT, process.argv[siteArg + 1] ?? "dist/site/game0") : undefined;
+const SITE = siteArg > 0 ? join(ROOT, process.argv[siteArg + 1] ?? "dist/site/mmo") : undefined;
 
 const problems: { check: string; msg: string }[] = [];
 const checks: string[] = [];

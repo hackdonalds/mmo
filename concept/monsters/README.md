@@ -13,7 +13,7 @@ chapter:
 
 > Decisions approved 2026-11-01. The bestiary is a first draft.
 >
-> Every creature and world boss is an entry in [`entries/bestiary/`](../entries/bestiary/), with its full stat block, published as the [Bestiary](https://hackdonalds.github.io/game0/catalogue/bestiary/) on the site. Plates are generated from each entry's `art` brief with `bun run art:bestiary`.
+> Every creature and world boss is an entry in [`entries/bestiary/`](../entries/bestiary/), with its full stat block, published as the [Bestiary](https://hackdonalds.github.io/mmo/catalogue/bestiary/) on the site. Plates are generated from each entry's `art` brief with `bun run art:bestiary`.
 
 Creatures of the isles and the sky, the storm-touched, and world bosses.
 
