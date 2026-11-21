@@ -8,7 +8,7 @@ Shard maps in the `game0-world` JSON format (`*.world.json`). The format is defi
 
 ## Editing
 
-1. Run `bun run dev:demo world-editor`, or open the [published editor](https://hackdonalds.github.io/game0/demos/world-editor/).
+1. Run `bun run dev:demo world-editor`, or open the [published editor](https://hackdonalds.github.io/mmo/demos/world-editor/).
 2. In the World panel, pick a file under **Repo worlds** and click **Open**, or use **Import**.
 3. Edit, then **Export** and save the file here, replacing the old one. Commit it.
 

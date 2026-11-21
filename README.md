@@ -2,7 +2,7 @@
 
 A sky-island MMORPG, in the concept stage. This monorepo holds the game concept, concept art, 3D assets, the Godot game, and the marketing site with its playable Three.js demos.
 
-**Handbook:** https://hackdonalds.github.io/game0/
+**Handbook:** https://hackdonalds.github.io/mmo/
 
 ## Layout
 
@@ -27,9 +27,9 @@ Binary assets (images, models, audio) are stored with Git LFS. Run `git lfs inst
 
 ```sh
 bun install
-bun run dev                 # marketing site at localhost:4321/game0
+bun run dev                 # marketing site at localhost:4321/mmo
 bun run dev:demo floating-isle
-bun run build && bun run preview   # full Pages build at localhost:4321/game0
+bun run build && bun run preview   # full Pages build at localhost:4321/mmo
 ```
 
 ## Asset pipeline

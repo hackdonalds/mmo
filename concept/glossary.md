@@ -1,6 +1,6 @@
 # Glossary
 
-Short definitions of the words used across the concept docs, grouped by the handbook chapter they belong to. The handbook shows them as its [glossary](https://hackdonalds.github.io/game0/catalogue/glossary/).
+Short definitions of the words used across the concept docs, grouped by the handbook chapter they belong to. The handbook shows them as its [glossary](https://hackdonalds.github.io/mmo/catalogue/glossary/).
 
 Write a definition here only when no doc or entry already says it. When one does, link to it instead (`- **Term**: [source](path)`): the handbook then shows the first paragraph of that doc section, or the summary of that entry, so the words live in one place.
 
